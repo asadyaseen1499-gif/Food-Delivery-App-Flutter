@@ -1,0 +1,82 @@
+name: foodie
+description: "A food delivery app project."
+publish_to: 'none'
+
+version: 1.0.0+10
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Firebase & Authentication ---
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.2.1
+  shared_preferences: ^2.3.2
+
+  # --- UI & Typography ---
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+
+  # --- Maps & Location (Mapbox Implementation) ---
+  flutter_map: ^7.0.2      # To render Mapbox tiles
+  latlong2: ^0.9.1         # For coordinate handling
+  geolocator: ^13.0.1      # To get GPS location
+  geocoding: ^3.0.0
+  url_launcher: ^6.2.4
+  flutter_cache_manager: ^3.3.1
+  cached_network_image: ^3.3.1
+
+  # --- Networking ---
+  http: ^1.2.2
+  flutter_native_splash: ^2.4.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+  # --- Asset Generators ---
+  flutter_launcher_icons: ^0.14.1
+
+
+# ==========================================
+# 📱 APP ICON CONFIGURATION
+# ==========================================
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+# ==========================================
+# 🚀 NATIVE SPLASH SCREEN CONFIGURATION
+# ==========================================
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/splash.png
+  fullscreen: false
+
+  # Android 12+ Fix (Using the padded image to prevent cropping)
+  android_12:
+    image: assets/images/splash_android12.png
+    color: "#FFFFFF"
+    icon_background_color: "#FFFFFF"
+
+# ==========================================
+# 💙 FLUTTER CONFIGURATION
+# ==========================================
+flutter:
+  uses-material-design: true
+
+  # Register your asset folders here
+  assets:
+    - assets/images/
+    - assets/images/resturants/musa/
+    - assets/images/resturants/
+    - assets/icon/
