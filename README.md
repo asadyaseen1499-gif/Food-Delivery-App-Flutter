@@ -4,11 +4,9 @@ Foody is a fully functional food delivery application UI and Logic demo built us
 
 ## 📱 Screenshots
 
-|                      Home Screen                      |                      Cart Screen                      |                      Item Screen                       |                         Authentication                          |
-|:-----------------------------------------------------:|:-----------------------------------------------------:|:------------------------------------------------------:|:---------------------------------------------------------------:|
 | <img src="assets/screenshots/home.jpeg" width="200"/> | <img src="assets/screenshots/cart.jpeg" width="200"/> | <img src="assets/screenshots/order.jpeg" width="200"/> | <img src="assets/screenshots/authentication.jpeg" width="200"/> |
 
-*(Note: Add your screenshots to an assets/screenshots folder to make this visible)*
+
 
 ## ✨ Features
 
