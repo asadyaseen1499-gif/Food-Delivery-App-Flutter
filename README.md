@@ -4,7 +4,7 @@ Foody is a fully functional food delivery application UI and Logic demo built us
 
 ## 📱 Screenshots
 
-| <img src="assets/screenshots/home.jpeg" width="200"/> | <img src="assets/screenshots/cart.jpeg" width="200"/> | <img src="assets/screenshots/order.jpeg" width="200"/> | <img src="assets/screenshots/authentication.jpeg" width="200"/> |
+ <img src="assets/screenshots/home.jpeg" width="200"/>  <img src="assets/screenshots/cart.jpeg" width="200"/>  <img src="assets/screenshots/order.jpeg" width="200"/>  <img src="assets/screenshots/authentication.jpeg" width="200"/> 
 
 
 
@@ -75,6 +75,6 @@ Foody is a fully functional food delivery application UI and Logic demo built us
 This project requires a `key.properties` file in the `android/` directory to build the release APK/Bundle.
 
 ## 👤 Author
-**Asad Yaseen **
+ Asad Yaseen 
 - [GitHub](https://github.com/asadyaseen1499-gif)
 - [LinkedIn](https://linkedin.com/in/asadyaseen)
