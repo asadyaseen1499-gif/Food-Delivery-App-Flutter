@@ -77,4 +77,4 @@ This project requires a `key.properties` file in the `android/` directory to bui
 ## 👤 Author
  Asad Yaseen 
 - [GitHub](https://github.com/asadyaseen1499-gif)
-- [LinkedIn](https://linkedin.com/in/asadyaseen)
+- [LinkedIn](https://linkedin.com/in/asadyaseen1499)
