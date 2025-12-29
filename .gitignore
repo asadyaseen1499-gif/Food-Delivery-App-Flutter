@@ -11,6 +11,9 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+*.tmp
+android/*.hprof
+
 
 # IntelliJ related
 *.iml
